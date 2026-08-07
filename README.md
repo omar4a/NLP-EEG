@@ -23,21 +23,17 @@ This project cross-validates AI sentiment predictions against **real human brain
 
 ## 🔍 Interesting Findings
 
-### 1. SST-2 Training Bias — "Neutral" Doesn't Exist
+### 1. Irony & Humor — Lost in Translation
 
-DistilBERT, trained on SST-2's binary labels, **tags neutral biographical facts as negative**. Sentences like *"He joined the Foreign Service in 1962"* get a negative polarity score simply because SST-2 never taught the model what "neutral" looks like. The brain, meanwhile, barely reacts.
+AI misses cultural references and pragmatic meaning. When Homer Simpson is described as slacking off at the nuclear power plant, the model reads it at face value. Humans show amusement (high arousal, positive engagement) — the AI sees an employee displaying bad behavior.
 
-### 2. Irony & Humor — Lost in Translation
-
-AI completely misses cultural references and pragmatic meaning. When Homer Simpson is described as *"working"* at the nuclear power plant, the model reads it at face value. Humans show amusement (high arousal, positive engagement) — the AI just sees an employment description.
-
-### 3. Scandal "Juiciness" — Curiosity ≠ Negativity
+### 2. Scandal "Juiciness" — Curiosity ≠ Negativity
 
 For scandal-related text, **humans show high engagement and curiosity** (elevated alpha suppression), while the AI only reads surface-level negativity. The brain is *interested*, not *upset* — a distinction current sentiment models can't make.
 
-### 4. Award-Heavy Sentences — Cognitive Overload
+### 3. Award-Heavy Sentences — Cognitive Overload
 
-Long enumerations of awards and honors get confidently tagged as **positive** by the AI. But the human EEG shows **negative FAA** — the brain isn't feeling positive, it's experiencing cognitive overload from processing dense lists. Sentiment ≠ cognitive load, but models can't tell the difference.
+Long enumerations of awards and honors get confidently tagged as **positive** by the AI regardless of context. For example human EEG shows **negative FAA** at sentences with many awards for war heroes.
 
 ---
 
