@@ -231,14 +231,4 @@ The cross-modal analysis reveals cognitive dimensions *invisible* to NLP models:
 
 ---
 
-## 📚 References
-
-- **ZuCo Dataset**: Hollenstein et al. (2018). *ZuCo, a simultaneous EEG and eye-tracking resource for natural sentence reading.* Scientific Data.
-- **DistilBERT**: Sanh et al. (2019). *DistilBERT, a distilled version of BERT.* NeurIPS Workshop.
-- **NRC-VAD Lexicon**: Mohammad (2018). *Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance.* ACL.
-- **SST**: Socher et al. (2013). *Recursive Deep Models for Semantic Compositionality.* EMNLP.
-- **MNE-Python**: Gramfort et al. (2013). *MEG and EEG data analysis with MNE-Python.* Frontiers in Neuroscience.
-
----
-
 <p align="center"><em>Built as part of CSE 389: Natural Language Processing — Spring 2026</em></p>
