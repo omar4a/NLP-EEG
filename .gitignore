@@ -1,0 +1,27 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+venv/
+
+# NRC-VAD Lexicon (licensed — download separately)
+NRC-VAD-Lexicon-v2.1/
+
+# macOS artifacts
+__MACOSX/
+
+# IDE
+.vscode/
+.idea/
+
+# Report (available in presentation)
+*.docx
+
+# Misc
+background.png
+screenshots/
+*.7z
