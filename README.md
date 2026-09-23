@@ -232,3 +232,7 @@ The cross-modal analysis reveals cognitive dimensions *invisible* to NLP models:
 ---
 
 <p align="center"><em>Built as part of CSE 389: Natural Language Processing — Spring 2026</em></p>
+
+---
+
+*Natural Language Processing course project, Ain Shams University (2026).*
